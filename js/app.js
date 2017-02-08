@@ -8,4 +8,8 @@ $( document ).ready(function(){
 		$("#todoList").append($("<li>" + + "</li>"));
 		console.log("ajoute");
 	});
+	/* fonction qui efface le contenue saisie ça marche, (lesly)*/
+	$(".clear").click(function(){
+		$("#todoList").empty(".clear");
+	});
 });

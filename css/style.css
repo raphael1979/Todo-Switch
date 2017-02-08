@@ -1,6 +1,6 @@
 h1{
 	text-align: center;
-	font-family: open sans serif;
+	font-family: open, sans-serif;
 }
 
 form{
@@ -8,3 +8,10 @@ form{
 
 }
 
+#todoInput{
+	width: 300px;
+}
+
+body{
+	background-color: #e9ff28;
+}

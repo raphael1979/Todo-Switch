@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: coral;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}

@@ -5,10 +5,11 @@ $( document ).ready(function(){
 		console.log("efface");
 	});
 	$(".ajout").click(function(){
-		$("#todoList").append($("<li>" + + "</li>"));
+		var input = $('#todoInput').val();
+		$("#todoList").append($("<li>" + input + "</li>"));
 		console.log("ajoute");
+		$('#todoInput').val('');
 	});
-	/* fonction qui efface le contenue saisie ça marche, (lesly)*/
 	$(".clear").click(function(){
 		$("#todoList").empty(".clear");
 	});

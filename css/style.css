@@ -3,7 +3,7 @@ h1{
 	font-family: open, sans-serif;
 }
 
-form{
+.receiver{
 	text-align: center;
 
 }
@@ -15,4 +15,7 @@ form{
 body{
 	background-color: #e9ff28;
 
+}
+ul{
+	list-style: none;
 }
